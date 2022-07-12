@@ -29,7 +29,11 @@ dependencies:
   device_info_plus_macos: ^2.2.3
   device_info_plus_linux: ^2.1.1
   device_info_plus_web: ^2.1.0
-  device_info_plus_windows: ^3.0.1
+  device_info_plus_windows:
+    git:
+      url: https://github.com/healthmetrics-com/plus_plugins.git
+      ref: device_info_plus_windows-v3.0.1
+      path: packages/device_info_plus/device_info_plus_windows
 
 dev_dependencies:
   flutter_test:
